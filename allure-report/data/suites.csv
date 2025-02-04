@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5207","parametrized methods","chromium","Mon Jan 20 02:49:53 EET 2025","failed","Mon Jan 20 02:49:59 EET 2025","","usePageObjects.spec.ts","",""
+"","7376","navigate to form page @smoke","chromium","Mon Jan 20 02:49:40 EET 2025","passed","Mon Jan 20 02:49:48 EET 2025","","usePageObjects.spec.ts","",""
