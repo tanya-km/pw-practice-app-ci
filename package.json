@@ -12,7 +12,9 @@
     "pageObjects-chrome": "npx playwright test usePageObjects.spec.ts --project=chromium",
     "pageObjects-firefox": "npx playwright test usePageObjects.spec.ts --project=firefox",
     "pageObjects-all": "npm run pageObjects-chrome && pageObjects-firefox",
-    "autoWait-dev": "URL=http://uitestingplayground.com/ajax npx playwright test autoWaiting.spec.ts --project=chromium"
+    "autoWait-dev": "URL=http://uitestingplayground.com/ajax npx playwright test autoWaiting.spec.ts --project=chromium",
+    "test": "playwright test",
+    "argos": "npx argos upload test-results/screenshots"
   },
   "dependencies": {
     "@angular/animations": "^14.2.12",
